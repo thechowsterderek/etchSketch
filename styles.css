@@ -1,0 +1,32 @@
+#buttonContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-bottom: 1rem;
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+.row li{
+    flex:1;
+    list-style: none;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    border:5px solid black;
+}
+
+.square:hover{
+    border:5px solid red;
+}
